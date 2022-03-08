@@ -7,13 +7,13 @@ public class Main {
     public static void main(String[] args) {
         /******A******* Block for OOP Basic Concepts exercise ***********************/
         //create an instance for GeometricFigure
-
+        GeometricFigure triangle = new GeometricFigure("Square");
         //make a call for the myName method of the new instance
-
+        System.out.println(triangle.myNameIs());
         //make a call for the calculatePerimeter method of the new instance
+        System.out.println("My perimeter is: "+ triangle.calculatePerimeter());
 
         /******A********************** END ********************************************/
-
 
 
         /*****B************* Block for OOP 4Pillars exercise ***************************/
@@ -27,12 +27,7 @@ public class Main {
         // SECOND SECTION
 
 
-
-
-
-
         /*****B*************************** END ****************************************/
-
 
 
         /*****C************* Block for Data Structures exercise ***************************/
