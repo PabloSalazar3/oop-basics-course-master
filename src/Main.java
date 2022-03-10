@@ -7,25 +7,30 @@ public class Main {
     public static void main(String[] args) {
         /******A******* Block for OOP Basic Concepts exercise ***********************/
         //create an instance for GeometricFigure
-        GeometricFigure triangle = new GeometricFigure("Square");
+        //GeometricFigure triangle = new GeometricFigure("Square");
         //make a call for the myName method of the new instance
-        System.out.println(triangle.myNameIs());
+        //System.out.println(triangle.myNameIs());
         //make a call for the calculatePerimeter method of the new instance
-        System.out.println("My perimeter is: "+ triangle.calculatePerimeter());
+        //System.out.println("My perimeter is: "+ triangle.calculatePerimeter());
 
         /******A********************** END ********************************************/
 
 
         /*****B************* Block for OOP 4Pillars exercise ***************************/
         // FIRST SECTION
-        /*
-        Square square = new Square(1.0);
-        System.out.println("Perimeter for " + square.getName() + " is " + square.calculatePerimeter());
-        System.out.println("Area for " + square.getName() + " is " + square.calculateArea());
-        */
+
+        //Square square = new Square(1.0);
+        //System.out.println("Perimeter for " + square.getName() + " is " + square.calculatePerimeter());
+        //System.out.println("Area for " + square.getName() + " is " + square.calculateArea());
 
         // SECOND SECTION
 
+        Square square = new Square(1.0);
+        System.out.println("Perimeter for " + square.getName() + " is " + square.calculatePerimeter());
+        System.out.println("Area for " + square.getName() + " is " + square.calculateArea());
+        Circle circle = new Circle(1.0);
+        System.out.println("Perimeter for " + circle.getName() + " is " + circle.calculatePerimeter());
+        System.out.println("Area for " + circle.getName() + " is " + circle.calculateArea());
 
         /*****B*************************** END ****************************************/
 
